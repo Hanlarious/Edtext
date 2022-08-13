@@ -1,0 +1,57 @@
+#FILE
+File:
+	Empty file.						[property emptyFile][single]
+	No file name.						[error]
+	No file found.						[error]
+	Newline generated.					[property validFile]
+	Not newline generated.					[error]
+
+# OPTIONS:
+-f:
+	with -f option.						[if emptyFile || validFile][single]
+	no -f option.						[if emptyFile || validFile]
+	Repeated -f option.					[if emptyFile || validFile][single]
+-r <old><new>:
+	with -r option w non-empty old para w/o new para.	[if !emptyFile && validFile][property validR1]
+	with -r option w non-empty old para w new para.		[if !emptyFile && validFile][property validR2]
+	with -r option w empty old para w new para.		[if !emptyFile && validFile][error]
+	with -r option w empty old para w/o new para.		[if !emptyFile && validFile][error]
+	with -r option w/o either parameter.			[if !emptyFile && validFile][error]
+	no -r option.						[if !emptyFile && validFile]
+	Repeated valid -r option.				[if !emptyFile && validFile][single]
+-g:
+	with -g & -r options.					[if validR1 || validR2 && !emptyFile && validFile]
+								[else][error]
+	no -g option.						
+	Repeated valid -g option.				[if validR1 || validR2 && !emptyFile && validFile][single]
+								[else][error]
+-a:
+	with -a option.						[if !emptyFile && validFile]
+	no -a option.						[if !emptyFile && validFile]
+	Repeated -a option.					[single]
+-p <string>:
+	with -p option w valid parameter.			[if validFile]
+	with -p option w/o parameter.				[if validFile][error]
+	with -p option w empty parameter.			[if validFile][error]
+	no -p option.						[if validFile][single]
+	Repeated valid -p option.				[if validFile][single]
+-d <integer>:
+	with -d option w integer para >=1 & <=10.		[if !emptyFile && validFile]
+	with -d option w non-integer parameter.			[if !emptyFile && validFile][error]
+	with -d option w integer parameter <1.			[if !emptyFile && validFile][error]
+	with -d option w integer parameter >10.			[if !emptyFile && validFile][error]
+	with -d option w/o parameter.				[if !emptyFile && validFile][error]
+	no -d option.						[if !emptyFile && validFile]
+	Repeated valid -d option.				[if !emptyFile && validFile][single]
+-n <integer>:
+	with -n option w integer parameter >=0 & <=5.		[if !emptyFile && validFile]
+	with -n option w non-integer parameter.			[if !emptyFile && validFile][error]
+	with -n option w integer parameter <1.			[if !emptyFile && validFile][error]
+	with -n option w integer parameter >5.			[if !emptyFile && validFile][error]
+	with -n option w/o parameter.				[if !emptyFile && validFile][error]
+	no -n option.						[if !emptyFile && validFile]
+	Repeated valid -n option.				[if !emptyFile && validFile][single]
+
+
+	
+	

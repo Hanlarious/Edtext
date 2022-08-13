@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="95a0e0d3-9243-4667-8aac-9d5483b9696b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Assignment4/SDPEncryptor/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment4/SDPEncryptor/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment6/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="27UuvziwunHjzS7sC9sLsBvlCEA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../shared hw/individual/IndividualProject" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Documents\gatech\6300\6300Spring22rli445\IndividualProject\edtext\lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Documents\gatech\6300\6300Spring22rli445\IndividualProject\edtext\lib" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MyLibTest.mainTest8">
+    <configuration name="MyLibTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IndividualProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.gatech.seclass.edtext.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.gatech.seclass.edtext" />
+      <option name="MAIN_CLASS_NAME" value="edu.gatech.seclass.edtext.MyLibTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyLibTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IndividualProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.gatech.seclass.edtext.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.gatech.seclass.edtext" />
+      <option name="MAIN_CLASS_NAME" value="edu.gatech.seclass.edtext.MyLibTest2" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyLibTest.mainTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IndividualProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.gatech.seclass.edtext.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.gatech.seclass.edtext" />
+      <option name="MAIN_CLASS_NAME" value="edu.gatech.seclass.edtext.MyLibTest" />
+      <option name="METHOD_NAME" value="mainTest1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyLibTest.mainTest7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IndividualProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.gatech.seclass.edtext.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.gatech.seclass.edtext" />
+      <option name="MAIN_CLASS_NAME" value="edu.gatech.seclass.edtext.MyLibTest" />
+      <option name="METHOD_NAME" value="mainTest7" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyLibTest.mainTest8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IndividualProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.gatech.seclass.edtext.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.gatech.seclass.edtext" />
+      <option name="MAIN_CLASS_NAME" value="edu.gatech.seclass.edtext.MyLibTest" />
+      <option name="METHOD_NAME" value="mainTest8" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MyLibTest.mainTest8" />
+        <item itemvalue="JUnit.MyLibTest2" />
+        <item itemvalue="JUnit.MyLibTest.mainTest7" />
+        <item itemvalue="JUnit.MyLibTest" />
+        <item itemvalue="JUnit.MyLibTest.mainTest1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="95a0e0d3-9243-4667-8aac-9d5483b9696b" name="Default Changelist" comment="" />
+      <created>1649387219959</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649387219959</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="610" y="294" width="774" height="840" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1650840132551">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="610" y="294" width="774" height="840" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1650840132551" />
+    <state x="1245" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1650684714850">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1245" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1650684714850" />
+    <state x="285" y="280" key="FileChooserDialogImpl" timestamp="1651709581435">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="285" y="280" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1651709581435" />
+    <state width="918" height="407" key="GridCell.Tab.0.bottom" timestamp="1650847202990">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="918" height="407" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1650847202990" />
+    <state width="918" height="407" key="GridCell.Tab.0.center" timestamp="1650847202990">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="918" height="407" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1650847202990" />
+    <state width="918" height="407" key="GridCell.Tab.0.left" timestamp="1650847202989">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="918" height="407" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1650847202989" />
+    <state width="918" height="407" key="GridCell.Tab.0.right" timestamp="1650847202990">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="918" height="407" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1650847202990" />
+    <state width="918" height="407" key="GridCell.Tab.1.bottom" timestamp="1650847202990">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="918" height="407" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1650847202990" />
+    <state width="918" height="407" key="GridCell.Tab.1.center" timestamp="1650847202990">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="918" height="407" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1650847202990" />
+    <state width="918" height="407" key="GridCell.Tab.1.left" timestamp="1650847202990">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="918" height="407" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1650847202990" />
+    <state width="918" height="407" key="GridCell.Tab.1.right" timestamp="1650847202990">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="918" height="407" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1650847202990" />
+    <state width="487" height="520" key="XDebugger.FullValuePopup" timestamp="1650163344243">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="487" height="520" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1650163344243" />
+    <state x="49" y="246" width="861" height="794" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1650742166394">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="49" y="246" width="861" height="794" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1650742166394" />
+    <state x="-76" y="137" width="1186" height="1056" key="dock-window-1" timestamp="1651709589793">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-76" y="137" width="1186" height="1056" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1651709589793" />
+    <state x="224" y="27" width="650" height="720" key="dock-window-2" timestamp="1650741829357">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="224" y="27" width="650" height="720" key="dock-window-2/0.0.1920.1040@0.0.1920.1040" timestamp="1650741829357" />
+    <state x="235" y="165" width="650" height="720" maximized="true" key="dock-window-3" timestamp="1650767664290">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="235" y="165" width="650" height="720" maximized="true" key="dock-window-3/0.0.1920.1040@0.0.1920.1040" timestamp="1650767664290" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/edtext/src/edu/gatech/seclass/edtext/Main.java</url>
+          <line>287</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/edtext/src/edu/gatech/seclass/edtext/Main.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/edtext/src/edu/gatech/seclass/edtext/Main.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/edtext/src/edu/gatech/seclass/edtext/Main.java</url>
+          <line>279</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/edtext/src/edu/gatech/seclass/edtext/Main.java</url>
+          <line>291</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/edtext/src/edu/gatech/seclass/edtext/Main.java</url>
+          <line>292</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/edtext/src/edu/gatech/seclass/edtext/Main.java</url>
+          <line>293</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/edtext/src/edu/gatech/seclass/edtext/Main.java</url>
+          <line>294</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/edtext/test/edu/gatech/seclass/edtext/MyMainTest.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/edtext/test/edu/gatech/seclass/edtext/MyMainTest.java</url>
+          <line>98</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/edtext/src/edu/gatech/seclass/edtext/Main.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/edtext/src/edu/gatech/seclass/edtext/EdText.java</url>
+          <line>188</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/edtext/src/edu/gatech/seclass/edtext/EdText.java</url>
+          <line>192</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/edtext/src/edu/gatech/seclass/edtext/EdText.java</url>
+          <line>194</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/edtext/src/edu/gatech/seclass/edtext/EdText.java</url>
+          <line>195</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/edtext/src/edu/gatech/seclass/edtext/EdText.java</url>
+          <line>196</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/edtext/src/edu/gatech/seclass/edtext/EdText.java</url>
+          <line>200</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/edtext/src/edu/gatech/seclass/edtext/EdText.java</url>
+          <line>203</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/edtext/src/edu/gatech/seclass/edtext/EdText.java</url>
+          <line>206</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/edtext/src/edu/gatech/seclass/edtext/EdText.java</url>
+          <line>207</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/edtext/src/edu/gatech/seclass/edtext/EdText.java</url>
+          <line>208</line>
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/edtext/src/edu/gatech/seclass/edtext/EdText.java</url>
+          <line>209</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/edtext/src/edu/gatech/seclass/edtext/EdText.java</url>
+          <line>210</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/edtext/src/edu/gatech/seclass/edtext/EdText.java</url>
+          <line>212</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/edtext/src/edu/gatech/seclass/edtext/EdText.java</url>
+          <line>214</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/edtext/src/edu/gatech/seclass/edtext/EdText.java</url>
+          <line>215</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/edtext/src/edu/gatech/seclass/edtext/EdText.java</url>
+          <line>219</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/edtext/src/edu/gatech/seclass/edtext/EdText.java</url>
+          <line>221</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/edtext/src/edu/gatech/seclass/edtext/EdText.java</url>
+          <line>220</line>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/edtext/src/edu/gatech/seclass/edtext/EdText.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/edtext/src/edu/gatech/seclass/edtext/EdText.java</url>
+          <line>102</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/edtext/src/edu/gatech/seclass/edtext/EdText.java</url>
+          <line>103</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/edtext/src/edu/gatech/seclass/edtext/EdText.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/edtext/src/edu/gatech/seclass/edtext/EdText.java</url>
+          <line>106</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/edtext/src/edu/gatech/seclass/edtext/EdText.java</url>
+          <line>113</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/edtext/src/edu/gatech/seclass/edtext/EdText.java</url>
+          <line>112</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/edtext/src/edu/gatech/seclass/edtext/EdText.java</url>
+          <line>114</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/edtext/src/edu/gatech/seclass/edtext/EdText.java</url>
+          <line>116</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/edtext/src/edu/gatech/seclass/edtext/EdText.java</url>
+          <line>241</line>
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/edtext/src/edu/gatech/seclass/edtext/EdText.java</url>
+          <line>242</line>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/edtext/src/edu/gatech/seclass/edtext/EdText.java</url>
+          <line>243</line>
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/edtext/src/edu/gatech/seclass/edtext/EdText.java</url>
+          <line>248</line>
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/edtext/src/edu/gatech/seclass/edtext/EdText.java</url>
+          <line>249</line>
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/edtext/src/edu/gatech/seclass/edtext/EdText.java</url>
+          <line>250</line>
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/edtext/src/edu/gatech/seclass/edtext/EdText.java</url>
+          <line>244</line>
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/edtext/src/edu/gatech/seclass/edtext/EdText.java</url>
+          <line>239</line>
+          <properties class="edu.gatech.seclass.edtext.EdText" method="emptyFile">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="errStream" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/edtext/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/edtext/test" isTestSource="true" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="lib" level="project" />
+    <orderEntry type="library" name="common-lang3" level="project" />
+    <orderEntry type="library" name="commons-cli-1.4" level="project" />
+    <orderEntry type="library" name="commons-cli-1.5.0" level="project" />
+    <orderEntry type="library" name="commons-lang3-3.12.0" level="project" />
+  </component>
+</module>

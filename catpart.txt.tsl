@@ -1,0 +1,552 @@
+
+Test Case 1  		<single>
+   File :  Empty file
+
+
+Test Case 2  		<error>
+   File :  No file name
+
+
+Test Case 3  		<error>
+   File :  No file found
+
+
+Test Case 4  		<error>
+   File :  Not newline generated
+
+
+Test Case 5  		<single>  (follows [if])
+   -f :  with -f option
+
+
+Test Case 6  		<single>  (follows [if])
+   -f :  Repeated -f option
+
+
+Test Case 7  		<error>  (follows [if])
+   -r <old><new> :  with -r option w empty old para w new para
+
+
+Test Case 8  		<error>  (follows [if])
+   -r <old><new> :  with -r option w empty old para w/o new para
+
+
+Test Case 9  		<error>  (follows [if])
+   -r <old><new> :  with -r option w/o either parameter
+
+
+Test Case 10 		<single>  (follows [if])
+   -r <old><new> :  Repeated valid -r option
+
+
+Test Case 11 		<error>  (follows [else])
+   -g :  with -g & -r options
+
+
+Test Case 12 		<single>  (follows [if])
+   -g :  Repeated valid -g option
+
+
+Test Case 13 		<error>  (follows [else])
+   -g :  Repeated valid -g option
+
+
+Test Case 14 		<single>
+   -a :  Repeated -a option
+
+
+Test Case 15 		<error>  (follows [if])
+   -p <string> :  with -p option w/o parameter
+
+
+Test Case 16 		<error>  (follows [if])
+   -p <string> :  with -p option w empty parameter
+
+
+Test Case 17 		<single>  (follows [if])
+   -p <string> :  no -p option
+
+
+Test Case 18 		<single>  (follows [if])
+   -p <string> :  Repeated valid -p option
+
+
+Test Case 19 		<error>  (follows [if])
+   -d <integer> :  with -d option w non-integer parameter
+
+
+Test Case 20 		<error>  (follows [if])
+   -d <integer> :  with -d option w integer parameter <1
+
+
+Test Case 21 		<error>  (follows [if])
+   -d <integer> :  with -d option w integer parameter >10
+
+
+Test Case 22 		<error>  (follows [if])
+   -d <integer> :  with -d option w/o parameter
+
+
+Test Case 23 		<single>  (follows [if])
+   -d <integer> :  Repeated valid -d option
+
+
+Test Case 24 		<error>  (follows [if])
+   -n <integer> :  with -n option w non-integer parameter
+
+
+Test Case 25 		<error>  (follows [if])
+   -n <integer> :  with -n option w integer parameter <1
+
+
+Test Case 26 		<error>  (follows [if])
+   -n <integer> :  with -n option w integer parameter >5
+
+
+Test Case 27 		<error>  (follows [if])
+   -n <integer> :  with -n option w/o parameter
+
+
+Test Case 28 		<single>  (follows [if])
+   -n <integer> :  Repeated valid -n option
+
+
+Test Case 29 		(Key = 4.2.1.1.1.1.1.1.)
+   File          :  Newline generated
+   -f            :  no -f option
+   -r <old><new> :  with -r option w non-empty old para w/o new para
+   -g            :  with -g & -r options
+   -a            :  with -a option
+   -p <string>   :  with -p option w valid parameter
+   -d <integer>  :  with -d option w integer para >=1 & <=10
+   -n <integer>  :  with -n option w integer parameter >=0 & <=5
+
+
+Test Case 30 		(Key = 4.2.1.1.1.1.1.6.)
+   File          :  Newline generated
+   -f            :  no -f option
+   -r <old><new> :  with -r option w non-empty old para w/o new para
+   -g            :  with -g & -r options
+   -a            :  with -a option
+   -p <string>   :  with -p option w valid parameter
+   -d <integer>  :  with -d option w integer para >=1 & <=10
+   -n <integer>  :  no -n option
+
+
+Test Case 31 		(Key = 4.2.1.1.1.1.6.1.)
+   File          :  Newline generated
+   -f            :  no -f option
+   -r <old><new> :  with -r option w non-empty old para w/o new para
+   -g            :  with -g & -r options
+   -a            :  with -a option
+   -p <string>   :  with -p option w valid parameter
+   -d <integer>  :  no -d option
+   -n <integer>  :  with -n option w integer parameter >=0 & <=5
+
+
+Test Case 32 		(Key = 4.2.1.1.1.1.6.6.)
+   File          :  Newline generated
+   -f            :  no -f option
+   -r <old><new> :  with -r option w non-empty old para w/o new para
+   -g            :  with -g & -r options
+   -a            :  with -a option
+   -p <string>   :  with -p option w valid parameter
+   -d <integer>  :  no -d option
+   -n <integer>  :  no -n option
+
+
+Test Case 33 		(Key = 4.2.1.1.2.1.1.1.)
+   File          :  Newline generated
+   -f            :  no -f option
+   -r <old><new> :  with -r option w non-empty old para w/o new para
+   -g            :  with -g & -r options
+   -a            :  no -a option
+   -p <string>   :  with -p option w valid parameter
+   -d <integer>  :  with -d option w integer para >=1 & <=10
+   -n <integer>  :  with -n option w integer parameter >=0 & <=5
+
+
+Test Case 34 		(Key = 4.2.1.1.2.1.1.6.)
+   File          :  Newline generated
+   -f            :  no -f option
+   -r <old><new> :  with -r option w non-empty old para w/o new para
+   -g            :  with -g & -r options
+   -a            :  no -a option
+   -p <string>   :  with -p option w valid parameter
+   -d <integer>  :  with -d option w integer para >=1 & <=10
+   -n <integer>  :  no -n option
+
+
+Test Case 35 		(Key = 4.2.1.1.2.1.6.1.)
+   File          :  Newline generated
+   -f            :  no -f option
+   -r <old><new> :  with -r option w non-empty old para w/o new para
+   -g            :  with -g & -r options
+   -a            :  no -a option
+   -p <string>   :  with -p option w valid parameter
+   -d <integer>  :  no -d option
+   -n <integer>  :  with -n option w integer parameter >=0 & <=5
+
+
+Test Case 36 		(Key = 4.2.1.1.2.1.6.6.)
+   File          :  Newline generated
+   -f            :  no -f option
+   -r <old><new> :  with -r option w non-empty old para w/o new para
+   -g            :  with -g & -r options
+   -a            :  no -a option
+   -p <string>   :  with -p option w valid parameter
+   -d <integer>  :  no -d option
+   -n <integer>  :  no -n option
+
+
+Test Case 37 		(Key = 4.2.1.2.1.1.1.1.)
+   File          :  Newline generated
+   -f            :  no -f option
+   -r <old><new> :  with -r option w non-empty old para w/o new para
+   -g            :  no -g option
+   -a            :  with -a option
+   -p <string>   :  with -p option w valid parameter
+   -d <integer>  :  with -d option w integer para >=1 & <=10
+   -n <integer>  :  with -n option w integer parameter >=0 & <=5
+
+
+Test Case 38 		(Key = 4.2.1.2.1.1.1.6.)
+   File          :  Newline generated
+   -f            :  no -f option
+   -r <old><new> :  with -r option w non-empty old para w/o new para
+   -g            :  no -g option
+   -a            :  with -a option
+   -p <string>   :  with -p option w valid parameter
+   -d <integer>  :  with -d option w integer para >=1 & <=10
+   -n <integer>  :  no -n option
+
+
+Test Case 39 		(Key = 4.2.1.2.1.1.6.1.)
+   File          :  Newline generated
+   -f            :  no -f option
+   -r <old><new> :  with -r option w non-empty old para w/o new para
+   -g            :  no -g option
+   -a            :  with -a option
+   -p <string>   :  with -p option w valid parameter
+   -d <integer>  :  no -d option
+   -n <integer>  :  with -n option w integer parameter >=0 & <=5
+
+
+Test Case 40 		(Key = 4.2.1.2.1.1.6.6.)
+   File          :  Newline generated
+   -f            :  no -f option
+   -r <old><new> :  with -r option w non-empty old para w/o new para
+   -g            :  no -g option
+   -a            :  with -a option
+   -p <string>   :  with -p option w valid parameter
+   -d <integer>  :  no -d option
+   -n <integer>  :  no -n option
+
+
+Test Case 41 		(Key = 4.2.1.2.2.1.1.1.)
+   File          :  Newline generated
+   -f            :  no -f option
+   -r <old><new> :  with -r option w non-empty old para w/o new para
+   -g            :  no -g option
+   -a            :  no -a option
+   -p <string>   :  with -p option w valid parameter
+   -d <integer>  :  with -d option w integer para >=1 & <=10
+   -n <integer>  :  with -n option w integer parameter >=0 & <=5
+
+
+Test Case 42 		(Key = 4.2.1.2.2.1.1.6.)
+   File          :  Newline generated
+   -f            :  no -f option
+   -r <old><new> :  with -r option w non-empty old para w/o new para
+   -g            :  no -g option
+   -a            :  no -a option
+   -p <string>   :  with -p option w valid parameter
+   -d <integer>  :  with -d option w integer para >=1 & <=10
+   -n <integer>  :  no -n option
+
+
+Test Case 43 		(Key = 4.2.1.2.2.1.6.1.)
+   File          :  Newline generated
+   -f            :  no -f option
+   -r <old><new> :  with -r option w non-empty old para w/o new para
+   -g            :  no -g option
+   -a            :  no -a option
+   -p <string>   :  with -p option w valid parameter
+   -d <integer>  :  no -d option
+   -n <integer>  :  with -n option w integer parameter >=0 & <=5
+
+
+Test Case 44 		(Key = 4.2.1.2.2.1.6.6.)
+   File          :  Newline generated
+   -f            :  no -f option
+   -r <old><new> :  with -r option w non-empty old para w/o new para
+   -g            :  no -g option
+   -a            :  no -a option
+   -p <string>   :  with -p option w valid parameter
+   -d <integer>  :  no -d option
+   -n <integer>  :  no -n option
+
+
+Test Case 45 		(Key = 4.2.2.1.1.1.1.1.)
+   File          :  Newline generated
+   -f            :  no -f option
+   -r <old><new> :  with -r option w non-empty old para w new para
+   -g            :  with -g & -r options
+   -a            :  with -a option
+   -p <string>   :  with -p option w valid parameter
+   -d <integer>  :  with -d option w integer para >=1 & <=10
+   -n <integer>  :  with -n option w integer parameter >=0 & <=5
+
+
+Test Case 46 		(Key = 4.2.2.1.1.1.1.6.)
+   File          :  Newline generated
+   -f            :  no -f option
+   -r <old><new> :  with -r option w non-empty old para w new para
+   -g            :  with -g & -r options
+   -a            :  with -a option
+   -p <string>   :  with -p option w valid parameter
+   -d <integer>  :  with -d option w integer para >=1 & <=10
+   -n <integer>  :  no -n option
+
+
+Test Case 47 		(Key = 4.2.2.1.1.1.6.1.)
+   File          :  Newline generated
+   -f            :  no -f option
+   -r <old><new> :  with -r option w non-empty old para w new para
+   -g            :  with -g & -r options
+   -a            :  with -a option
+   -p <string>   :  with -p option w valid parameter
+   -d <integer>  :  no -d option
+   -n <integer>  :  with -n option w integer parameter >=0 & <=5
+
+
+Test Case 48 		(Key = 4.2.2.1.1.1.6.6.)
+   File          :  Newline generated
+   -f            :  no -f option
+   -r <old><new> :  with -r option w non-empty old para w new para
+   -g            :  with -g & -r options
+   -a            :  with -a option
+   -p <string>   :  with -p option w valid parameter
+   -d <integer>  :  no -d option
+   -n <integer>  :  no -n option
+
+
+Test Case 49 		(Key = 4.2.2.1.2.1.1.1.)
+   File          :  Newline generated
+   -f            :  no -f option
+   -r <old><new> :  with -r option w non-empty old para w new para
+   -g            :  with -g & -r options
+   -a            :  no -a option
+   -p <string>   :  with -p option w valid parameter
+   -d <integer>  :  with -d option w integer para >=1 & <=10
+   -n <integer>  :  with -n option w integer parameter >=0 & <=5
+
+
+Test Case 50 		(Key = 4.2.2.1.2.1.1.6.)
+   File          :  Newline generated
+   -f            :  no -f option
+   -r <old><new> :  with -r option w non-empty old para w new para
+   -g            :  with -g & -r options
+   -a            :  no -a option
+   -p <string>   :  with -p option w valid parameter
+   -d <integer>  :  with -d option w integer para >=1 & <=10
+   -n <integer>  :  no -n option
+
+
+Test Case 51 		(Key = 4.2.2.1.2.1.6.1.)
+   File          :  Newline generated
+   -f            :  no -f option
+   -r <old><new> :  with -r option w non-empty old para w new para
+   -g            :  with -g & -r options
+   -a            :  no -a option
+   -p <string>   :  with -p option w valid parameter
+   -d <integer>  :  no -d option
+   -n <integer>  :  with -n option w integer parameter >=0 & <=5
+
+
+Test Case 52 		(Key = 4.2.2.1.2.1.6.6.)
+   File          :  Newline generated
+   -f            :  no -f option
+   -r <old><new> :  with -r option w non-empty old para w new para
+   -g            :  with -g & -r options
+   -a            :  no -a option
+   -p <string>   :  with -p option w valid parameter
+   -d <integer>  :  no -d option
+   -n <integer>  :  no -n option
+
+
+Test Case 53 		(Key = 4.2.2.2.1.1.1.1.)
+   File          :  Newline generated
+   -f            :  no -f option
+   -r <old><new> :  with -r option w non-empty old para w new para
+   -g            :  no -g option
+   -a            :  with -a option
+   -p <string>   :  with -p option w valid parameter
+   -d <integer>  :  with -d option w integer para >=1 & <=10
+   -n <integer>  :  with -n option w integer parameter >=0 & <=5
+
+
+Test Case 54 		(Key = 4.2.2.2.1.1.1.6.)
+   File          :  Newline generated
+   -f            :  no -f option
+   -r <old><new> :  with -r option w non-empty old para w new para
+   -g            :  no -g option
+   -a            :  with -a option
+   -p <string>   :  with -p option w valid parameter
+   -d <integer>  :  with -d option w integer para >=1 & <=10
+   -n <integer>  :  no -n option
+
+
+Test Case 55 		(Key = 4.2.2.2.1.1.6.1.)
+   File          :  Newline generated
+   -f            :  no -f option
+   -r <old><new> :  with -r option w non-empty old para w new para
+   -g            :  no -g option
+   -a            :  with -a option
+   -p <string>   :  with -p option w valid parameter
+   -d <integer>  :  no -d option
+   -n <integer>  :  with -n option w integer parameter >=0 & <=5
+
+
+Test Case 56 		(Key = 4.2.2.2.1.1.6.6.)
+   File          :  Newline generated
+   -f            :  no -f option
+   -r <old><new> :  with -r option w non-empty old para w new para
+   -g            :  no -g option
+   -a            :  with -a option
+   -p <string>   :  with -p option w valid parameter
+   -d <integer>  :  no -d option
+   -n <integer>  :  no -n option
+
+
+Test Case 57 		(Key = 4.2.2.2.2.1.1.1.)
+   File          :  Newline generated
+   -f            :  no -f option
+   -r <old><new> :  with -r option w non-empty old para w new para
+   -g            :  no -g option
+   -a            :  no -a option
+   -p <string>   :  with -p option w valid parameter
+   -d <integer>  :  with -d option w integer para >=1 & <=10
+   -n <integer>  :  with -n option w integer parameter >=0 & <=5
+
+
+Test Case 58 		(Key = 4.2.2.2.2.1.1.6.)
+   File          :  Newline generated
+   -f            :  no -f option
+   -r <old><new> :  with -r option w non-empty old para w new para
+   -g            :  no -g option
+   -a            :  no -a option
+   -p <string>   :  with -p option w valid parameter
+   -d <integer>  :  with -d option w integer para >=1 & <=10
+   -n <integer>  :  no -n option
+
+
+Test Case 59 		(Key = 4.2.2.2.2.1.6.1.)
+   File          :  Newline generated
+   -f            :  no -f option
+   -r <old><new> :  with -r option w non-empty old para w new para
+   -g            :  no -g option
+   -a            :  no -a option
+   -p <string>   :  with -p option w valid parameter
+   -d <integer>  :  no -d option
+   -n <integer>  :  with -n option w integer parameter >=0 & <=5
+
+
+Test Case 60 		(Key = 4.2.2.2.2.1.6.6.)
+   File          :  Newline generated
+   -f            :  no -f option
+   -r <old><new> :  with -r option w non-empty old para w new para
+   -g            :  no -g option
+   -a            :  no -a option
+   -p <string>   :  with -p option w valid parameter
+   -d <integer>  :  no -d option
+   -n <integer>  :  no -n option
+
+
+Test Case 61 		(Key = 4.2.6.2.1.1.1.1.)
+   File          :  Newline generated
+   -f            :  no -f option
+   -r <old><new> :  no -r option
+   -g            :  no -g option
+   -a            :  with -a option
+   -p <string>   :  with -p option w valid parameter
+   -d <integer>  :  with -d option w integer para >=1 & <=10
+   -n <integer>  :  with -n option w integer parameter >=0 & <=5
+
+
+Test Case 62 		(Key = 4.2.6.2.1.1.1.6.)
+   File          :  Newline generated
+   -f            :  no -f option
+   -r <old><new> :  no -r option
+   -g            :  no -g option
+   -a            :  with -a option
+   -p <string>   :  with -p option w valid parameter
+   -d <integer>  :  with -d option w integer para >=1 & <=10
+   -n <integer>  :  no -n option
+
+
+Test Case 63 		(Key = 4.2.6.2.1.1.6.1.)
+   File          :  Newline generated
+   -f            :  no -f option
+   -r <old><new> :  no -r option
+   -g            :  no -g option
+   -a            :  with -a option
+   -p <string>   :  with -p option w valid parameter
+   -d <integer>  :  no -d option
+   -n <integer>  :  with -n option w integer parameter >=0 & <=5
+
+
+Test Case 64 		(Key = 4.2.6.2.1.1.6.6.)
+   File          :  Newline generated
+   -f            :  no -f option
+   -r <old><new> :  no -r option
+   -g            :  no -g option
+   -a            :  with -a option
+   -p <string>   :  with -p option w valid parameter
+   -d <integer>  :  no -d option
+   -n <integer>  :  no -n option
+
+
+Test Case 65 		(Key = 4.2.6.2.2.1.1.1.)
+   File          :  Newline generated
+   -f            :  no -f option
+   -r <old><new> :  no -r option
+   -g            :  no -g option
+   -a            :  no -a option
+   -p <string>   :  with -p option w valid parameter
+   -d <integer>  :  with -d option w integer para >=1 & <=10
+   -n <integer>  :  with -n option w integer parameter >=0 & <=5
+
+
+Test Case 66 		(Key = 4.2.6.2.2.1.1.6.)
+   File          :  Newline generated
+   -f            :  no -f option
+   -r <old><new> :  no -r option
+   -g            :  no -g option
+   -a            :  no -a option
+   -p <string>   :  with -p option w valid parameter
+   -d <integer>  :  with -d option w integer para >=1 & <=10
+   -n <integer>  :  no -n option
+
+
+Test Case 67 		(Key = 4.2.6.2.2.1.6.1.)
+   File          :  Newline generated
+   -f            :  no -f option
+   -r <old><new> :  no -r option
+   -g            :  no -g option
+   -a            :  no -a option
+   -p <string>   :  with -p option w valid parameter
+   -d <integer>  :  no -d option
+   -n <integer>  :  with -n option w integer parameter >=0 & <=5
+
+
+Test Case 68 		(Key = 4.2.6.2.2.1.6.6.)
+   File          :  Newline generated
+   -f            :  no -f option
+   -r <old><new> :  no -r option
+   -g            :  no -g option
+   -a            :  no -a option
+   -p <string>   :  with -p option w valid parameter
+   -d <integer>  :  no -d option
+   -n <integer>  :  no -n option
+
